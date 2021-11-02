@@ -16,7 +16,7 @@ class Pages extends BaseController
         $data = [
             'title'     => 'About Me | Programing RPL A'
         ];
-        return view('Pages/abaout', $data);
+        return view('Pages/about', $data);
     }
 
     
